@@ -1,0 +1,13 @@
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  user-select: none;
+  .tag {
+    border: 1px solid var(--border);
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: var(--fg-light);
+    cursor: pointer;
+  }
+}

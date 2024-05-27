@@ -1,0 +1,15 @@
+:focus-visible {
+  outline-color: var(--border-focus);
+}
+.page {
+  --header-height: 61px;
+  padding-top: var(--header-height);
+  .content {
+    display: flex;
+    align-items: flex-start;
+    .list {
+      width: 0;
+      flex-grow: 1;
+    }
+  }
+}

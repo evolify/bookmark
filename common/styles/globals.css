@@ -1,0 +1,35 @@
+@import '@unocss/reset/tailwind.css';
+@unocss all;
+
+:root {
+  --bg: #f7f7f7;
+  --bg-card: #fff;
+  --bg-light: rgba(0, 0, 0, 0.05);
+  --border: #e7e7e7;
+  --border-focus: #0007;
+  --fg: #111;
+  --fg-light: #888;
+  --icon-fill: hsl(210 10% 30%);
+  --icon-fill-hover: hsl(210 10% 15%);
+  font-size: 14px;
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+[data-theme="dark"] {
+  --bg: #000;
+  --bg-card: #212121;
+  --bg-header: #212121aa;
+  --bg-light: #fff2;
+  --border: #111;
+  --border-focus: #fff6;
+  --fg: #fff;
+  --fg-light: #aaa;
+  --icon-fill: hsl(210 10% 70%);
+  --icon-fill-hover: hsl(210 15% 90%);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, PingFang SC, MiSans,
+    sans-serif;
+}
